@@ -106,8 +106,8 @@ textProcessor:
   # - in mode "remoteSingle" only the first endpoint will be used
   # - in mode "remoteMulti" all endpoints will be used
   textProcessors:
-    - http://textprocessor1:8090/api # docker compose adaption
-    - http://textprocessor2:8092/api # old 
+    - http://localhost:8090/api 
+    - http://localhost:8091/api 
   # SQS, ActiveMQ
   # messsaging system, required for mode "queue"
   mom: SQS
